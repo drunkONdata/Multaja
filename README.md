@@ -1,7 +1,7 @@
 ![Multaja'](images/head.png)
 
 ### Motivation
-We no longer live in a world where refugee migration doesn’t touch us. As citizens in this global village, we are linked. Some members of our team have followed reports of refugee displacement on the news, and some of our team have seen it with their own eyes. This weekend (Oct 19-21), we felt particularly compelled by the challenge to collect and analyze satellite imagery to learn about land occupied by displaced populations.
+We no longer live in a world where refugee migration doesn’t touch us. As citizens in this global village, we are linked. Some members of our team have followed reports of refugee displacement on the news, and some of our team have seen it with their own eyes. This weekend (Oct 19-21), we felt particularly compelled by the challenge to collect and analyze satellite imagery to learn about land occupied by displaced populations. 
 
 ### The Challenge
 Design an approach that uses NASA Earth observations data to characterize land cover & land use conditions at informal settlements.
@@ -13,10 +13,7 @@ Design an approach that uses NASA Earth observations data to characterize land c
 * Grace Shea
 * Jared Anderson
 
-**Space Apps Challenge Hackathon**<br>
-Seattle, WA  
-October 19-21, 2018 
-
+**Space Apps Challenge Hackathon** - Seattle, WA - October 19-21, 2018
 - "Best Use of Data" Winner (1st place Data Science)
 - Finalist in Seattle, moving on toward's Global Competition!
 
@@ -24,19 +21,19 @@ October 19-21, 2018
   <img src="images/space_apps.png" width="350" title="NASA SpaceApps 2018 - Seattle ">
 </p>
 
-### Project Solution
-Utilize an ensemble of various machine learning techniques including K-means clustering, open vision and time series forecasting to quantify & predict number of structures and infer populations at a refugee camp. Our solution is:
+### Our Project
+Multaja', the Arabic word for 'refuge', 'shelter' & 'sanctuary', is the name of our project. Utilize an ensemble of various machine learning techniques including K-means clustering, open vision and time series forecasting to quantify & predict number of structures and infer populations at a refugee camp. Governments, NGOs and other aid agencies can now allocate resources more accurately with less down-time.
+
+Our solution is:
 
 * Scalable to other settlements
-* Sensitive to the local geography & climate
+* Sensitive to the local geography, climate & geo-political situation
 * Can be adapted to be easily understandable for residents, humanitarians, policy makers, scientists, and others who are committed to the welfare of vulnerable populations
-
 
 ### Scope
 Rukban, Syria - At the northeastern corner Jordan, at the joint border of Syria and Iraq, there is a refugee camp in dire need of aid. It is often referred to as the most desperate settlement of Syrian refugees. Due to its remoteness, but also due to the Jordanian government’s desire to restrict refugee access.
 
 ### Modeling
-
 Satellite imagery was taken from the Sentinel-2 dataset. For the initial analysis the image below was used:
 
 ![Rukban](images/rukban.png)
@@ -53,13 +50,18 @@ Several Blob Detection Algorithms are applied as well. By using a count of the d
 
 ![Rukban](images/rukban_blobs.png)
 
-### Future Steps
-* Engage NGOs and aid workers for greater nuanced understanding of metrics and KPIs that matter to their planning and policy making.
-* Create dashboard that automatically updates population forecasts with updated satellite imagery data.
-* Aggregate high resolution satellite imagery for various conflict zones to be analyzed by the Ma’waa machine learning platform to mitigate data scarcity and build robust time series forecast
+### Links
+- Presentation Slides: https://bit.ly/2EDTzAt
+- GitHub: https://github.com/drunkONdata/Multaja
+- Video of Presentation in Seattle: 
+
+### Future Work
+* Engage NGOs and aid workers for greater nuanced understanding of metrics and KPIs that matter to their planning and policy making
+* Create dashboard that automatically updates population forecasts with updated satellite imagery data
+* Aggregate high resolution satellite imagery for various conflict zones to be analyzed by the Multaja' machine learning platform to mitigate data scarcity and build robust time series forecast
 * Model validation with labeled data
 * Incorporating imaging from different spectra for machine learning platform
-* Develop app that governments and NGOS can use to allocate resources and develop resonse plans
+* Develop app that governments and NGOs can use to allocate resources and develop response plans
 
 ### Additional Background
 In Northeastern corner Jordan, at the joint border of Syria and Iraq, there is a refugee camp in dire need of aid. This camp is in Rukban. It is often referred to as the most desperate settlement of Syrian refugees. This is not only due to its remoteness, but also due to the Jordanian government’s desire to restrict refugee access to Jordan from this area due to security concerns. 
@@ -70,9 +72,7 @@ On the Syrian side, the Syrian government has blocked all avenues of aid to this
 
 As of this month, UNICEF estimates that 45,000 people live at the camp and have reported the death of two children due to starvation. The UN announced last week that preparations are underway for the first aid convoy in 9 months to reach Rukban in the next few days.
 
-### License
-MIT License
-
+### MIT License
 Copyright (c) 2018 Multaja'
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -91,4 +91,3 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-
