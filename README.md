@@ -53,6 +53,7 @@ Several Blob Detection Algorithms are applied as well. By using a count of the d
 ### Links
 - Presentation Slides: https://bit.ly/2EDTzAt
 - GitHub: https://github.com/drunkONdata/Multaja
+- SpaceApps Project Page: https://bit.ly/2RolXbh
 - Video of Presentation in Seattle: https://youtu.be/6BhrshuaHlU <br>(**NOTE**: Project was renamed to Multaja' from Ma'waa)
 
 ### Future Work
