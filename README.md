@@ -15,7 +15,9 @@ Design an approach that uses NASA Earth observations data to characterize land c
 
 **Space Apps Challenge Hackathon** - Seattle, WA - October 19-21, 2018
 - "Best Use of Data" Winner (1st place Data Science)
-- Finalist in Seattle, moving on toward's Global Competition!
+- Global Finalist: 
+     * 4th place for Best Use of Data 
+     * Top 10 for Best Use of Science
 
 <p align="center">
   <img src="images/space_apps.png" width="350" title="NASA SpaceApps 2018 - Seattle ">
