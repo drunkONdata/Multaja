@@ -8,6 +8,23 @@ from math import sqrt
 from skimage.feature import blob_dog, blob_log, blob_doh
 from skimage.color import rgb2gray
 
+'''
+To properly detect refugee settlments high res sat imagery is required. Below
+is a list of resources that can provide the quality of imagery needed:
+
+google earth engine (https://earthengine.google.com/)
+orbview 3 (https://lta.cr.usgs.gov/satellite_orbview3)
+very high res or high res imagery from geoimage
+    (https://www.geoimage.com.au/satellites/very-high-resolution-satellites)
+    this option requires funds
+
+
+NASA's GHRSST might have high enough radiometer imagery to pick out
+    heat signitures for blob detection(https://search.earthdata.nasa.
+    gov/search?q=high%20resolution&ok=high%20resolution)
+'''
+
+
 def load_image(directory):
     '''
     Loads an image from a specified directory and encodes it into a numpy array
