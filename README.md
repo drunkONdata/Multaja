@@ -17,7 +17,7 @@ Design an approach that uses NASA Earth observations data to characterize land c
 - "Best Use of Data" Winner (1st place Data Science)
 - Global Finalist: 
      * 4th place for Best Use of Data 
-     * Top 10 for Best Use of Science
+     * Top 5 for Best Use of Science
 
 <p align="center">
   <img src="images/space_apps.png" width="350" title="NASA SpaceApps 2018 - Seattle ">
